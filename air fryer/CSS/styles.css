@@ -1,0 +1,231 @@
+/* styles.css - AiryBites Website */
+/* Author: Anmol kaur
+date 6 April,2025 */
+
+/*------ Reset Styles ------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+} 
+
+.container {
+    max-width: 1200px; 
+    width: 90%; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #fff; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  }
+
+a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* -------- Header Styles ------- */
+header {
+  background-color: #e0f7fa;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* -------Nav Styles -------*/
+nav {
+  background-color: #0077cc;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: #ffee58;
+}
+
+/* ------- Main Content Styles ------- */
+main {
+  display: block;
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: 0 auto 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.team-member {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+main h1, main h2 {
+  color: #0077cc;
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin-left: 1.5rem;
+  padding-left: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* -------Footer Styles ------ */
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+}
+/* ------Product Section Styles (Specials Page) -----*/
+.product {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .product img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+
+/*------- Form Styles (contact.html) -------- */
+form {
+  width: 90%;
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #fafafa;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+legend {
+  font-weight: bold;
+  color: #333;
+}
+
+input, select, textarea, button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/*------Table Styles (training.html) -------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+caption {
+  caption-side: top;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #0077cc;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+th {
+  background-color: #e0f7fa;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #dcedc8;
+}
+
+/* ------Media Queries (Responsive) -----*/
+@media screen and (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  form, main {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  header img {
+    height: 120px;
+  }
+
+  input, select, textarea, button {
+    font-size: 0.9rem;
+  }
+}

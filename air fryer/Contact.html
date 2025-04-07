@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- Author: Anmol kaur
+date 6 April,2025  -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AiryBites - Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <img src="images/banner.jpg" alt="Air Fryer Banner" width="100%" height="200">
+  </header>
+
+  <nav>
+    <a href="index.html"><img src="images/Logo.jpg" alt="Logo" width="300"></a>
+    <a href="index.html">Home</a> &nbsp;&nbsp;
+    <a href="about.html">About</a> &nbsp;&nbsp;
+    <a href="team.html">Our Team</a> &nbsp;&nbsp;
+    <a href="specials.html">Specials</a> &nbsp;&nbsp;
+    <a href="training.html">Training</a> &nbsp;&nbsp;
+    <a href="media.html">Media</a> &nbsp;&nbsp;
+    <a href="faqs.html">FAQs</a> &nbsp;&nbsp;
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <main>
+    <h1>Contact Us</h1>
+    <ul>
+      <li>Fill out the form below</li>
+      <li>Click Submit to send us your request</li>
+    </ul>
+
+    <div id="form">
+        <h2>
+          Complete the form below and one of our staff members will contact you.
+        </h2>
+        <form class="form-grid">
+      <fieldset>
+    <legend>Get in Touch</legend>
+
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" placeholder="Your name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+
+        <label for="date">Preferred Contact Date:</label><br>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label>Preferred Contact Method:</label><br>
+        <input type="radio" id="emailContact" name="contactMethod" value="Email" checked>
+        <label for="emailContact">Email</label>
+        <input type="radio" id="phoneContact" name="contactMethod" value="Phone">
+        <label for="phoneContact">Phone</label><br><br>
+
+        <label>What are you interested in?</label><br>
+        <input type="checkbox" id="products" name="interest" value="Products">
+        <label for="products">Products</label>
+        <input type="checkbox" id="recipes" name="interest" value="Recipes">
+        <label for="recipes">Recipes</label><br><br>
+
+        <label for="inquiryType">Select Topic:</label><br>
+        <select id="inquiryType" name="inquiryType">
+          <option value="support">Customer Support</option>
+          <option value="sales">Sales Inquiry</option>
+          <option value="feedback">Feedback</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" placeholder="Type your message here..."></textarea><br><br>
+
+        <button type="submit">Submit Request</button>
+        <button type="reset">Reset Form</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; Copyright 2099. All Rights Reserved.</p>
+    <p><a href="mailto:info@airybites.com">Request information</a></p>
+    <p>Anmol kaur&nbsp; 0949650 </p>
+  </footer>
+</body>
+</html>
